@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 10</title>
+</head>
+<body>
+    <h2>Assessment 10 - Qus.no.01</h2>
+<script>
+//Write a JavaScript program that asks the user to calculateBMI that takes the weight in kilograms and height in meters as parameters. 
+//Display an alert saying Mass Index (BMI) of a person, which is calculated as weight / (height * height).
+
+let Name=prompt("Enter your name");
+console.log(`your name : ${name}`);
+
+let weight=prompt("Enter your weigth in kilograms");
+console.log(`your weight : ${weight} kg`);
+
+let height=prompt("Enter yout height in meters");
+console.log(`your height : ${height} m`);
+
+if(weight<=0 || height<=0){
+    alert("Please enter valid values for weight and height.");
+} else{
+    bmiResult= (weight/(height*height));
+}
+console.log(`Hai ${Name}, Your Body Mass IndexBMI value is : ${bmiResult}`);
+
+
+alert(`Hai ${Name}, Your Body Mass IndexBMI value is : ${bmiResult}`);
+
+
+</script>
+</body>
+</html>
